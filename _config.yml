@@ -40,10 +40,17 @@ description: Insert tagline here
 
 permalink: /themes/:title/
 
-# plugins: [jekyll-paginate]
-
 highlighter: pygments
 paginate: 20
+
+comment:
+  provider: "disqus"
+  disqus:
+    shortname: "km22pj"
+    
+
+
+# plugins: [jekyll-paginate]
 
 # markdown: rdiscount
 # rdiscount:
